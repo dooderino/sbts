@@ -1,0 +1,38 @@
+{
+  "id": "sbts",
+  "title": "Seekers Beyond the Shroud",
+  "description": "Seekers Beyond the Shroud for FoundryVTT",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "manifest": "https://raw.githubusercontent.com/dooderino/sbts/master/system.json",
+  "download": "https://github.com/dooderino/sbts/releases/download/release-0.0.1/sbts-release-0.0.1.zip",
+  "url": "https://github.com/dooderino/sbts/",
+  "authors": [
+    {
+      "name": "dooderino",
+      "url": "https://github.com/dooderino"
+    }
+  ],
+  "scripts": [],
+  "esmodules": ["sbts.mjs"],
+  "styles": ["sbts.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "media": [],
+  "socket": true,
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "hp",
+  "secondaryTokenAttribute": null,
+  "license": "LICENSE.txt"
+}
