@@ -15,7 +15,9 @@ import SBTS from "./module/config.mjs";
 /*  Define Module Structure                     */
 /* -------------------------------------------- */
 
-globalThis.sbts = {};
+globalThis.sbts = {
+  config: SBTS,
+};
 
 /* -------------------------------------------- */
 /*  Foundry VTT Initialization                  */
@@ -26,6 +28,8 @@ Hooks.once("init", function () {
   console.log(
     `SBtS | Initializing the SBtS Game System - Version ${sbts.version}\n${SBTS.ASCII}`
   );
+
+  CONFIG.SBTS = SBTS;
 });
 
 /* -------------------------------------------- */

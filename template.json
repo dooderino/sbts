@@ -1,4 +1,181 @@
 {
-  "Actor": {},
+  "Actor": {
+    "types": ["pc"],
+    "templates": {
+      "mental": {
+        "attributes": {
+          "wil": {
+            "value": 10,
+            "min": 0,
+            "max": 20
+          },
+          "int": {
+            "value": 10,
+            "min": 0,
+            "max": 20
+          },
+          "cha": {
+            "value": 10,
+            "min": 0,
+            "max": 20
+          }
+        }
+      },
+      "physical": {
+        "attributes": {
+          "str": {
+            "value": 10,
+            "min": 0,
+            "max": 20
+          },
+          "con": {
+            "value": 10,
+            "min": 0,
+            "max": 20
+          },
+          "dex": {
+            "value": 10,
+            "min": 0,
+            "max": 20
+          }
+        }
+      }
+    }
+  },
+  "pc": {
+    "templates": ["physical", "mental"],
+    "attributes": {
+      "hp": {
+        "formula": ""
+      },
+      "san": {
+        "formula": ""
+      },
+      "vp": {
+        "formula": ""
+      },
+      "sp": {
+        "formula": ""
+      }
+    },
+    "combatSkills": {
+      "carbine": {
+        "formula": ""
+      },
+      "dodge": {
+        "formula": ""
+      },
+      "findCover": {
+        "formula": ""
+      },
+      "oneHandedMeleeWeapons": {
+        "formula": ""
+      },
+      "parry": {
+        "formula": ""
+      },
+      "pistols": {
+        "formula": ""
+      },
+      "psychicDefense": {
+        "formula": ""
+      },
+      "psychicOffense": {
+        "formula": ""
+      },
+      "rifle": {
+        "formula": ""
+      },
+      "throw": {
+        "formula": ""
+      },
+      "twoHandedMeleeWeapons": {
+        "formula": ""
+      },
+      "unarmed": {
+        "formula": ""
+      }
+    },
+    "nonCombatSkills": {
+      "alchemy": {
+        "value": 0,
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": true
+      },
+      "appraisal": {
+        "value": 0,
+        "max": 100,
+        "availableDuringCreation": true,
+        "availableForSkillUp": true
+      },
+      "astralKnowledge": {
+        "value": 0,
+        "max": 100,
+        "availableDuringCreation": true,
+        "availableForSkillUp": true
+      },
+      "firstAid": {
+        "value": 20,
+        "max": 100,
+        "availableDuringCreation": true,
+        "availableForSkillUp": true
+      },
+      "linguistics": {
+        "value": 0,
+        "max": 100,
+        "availableDuringCreation": true,
+        "availableForSkillUp": true
+      },
+      "lockPicking": {
+        "fomula": "",
+        "max": 100,
+        "availableDuringCreation": true,
+        "availableForSkillUp": true
+      },
+      "magicalLiturgy": {
+        "value": 10,
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": true
+      },
+      "meditation": {
+        "formula": "",
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": true
+      },
+      "occultKnowledge": {
+        "value": 10,
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": false
+      },
+      "perception": {
+        "value": 20,
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": false
+      },
+      "pursuasion": {
+        "formula": "",
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": false
+      },
+      "sneaking": {
+        "formula": "",
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": false
+      },
+      "technology": {
+        "value": 0,
+        "max": 100,
+        "availableDuringCreation": false,
+        "availableForSkillUp": false
+      }
+    }
+  },
   "Item": {}
 }

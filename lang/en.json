@@ -1,0 +1,7 @@
+{
+  "ACTOR.TypeCharacter": "Player Character",
+
+  "SBTS.AttributeStr": "Strength",
+  "SBTS.AttributeDex": "Dexterity",
+  "SBTS.AttributeCon": "Constitution"
+}
